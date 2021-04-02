@@ -1,0 +1,112 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #f63232;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+header h1{
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 30px;
+}
+.Banner{
+    position: relative;
+}
+.Banner img{
+    max-width: 100%;
+}
+.Banner .Welcome{
+    background-color: #feb614;
+    color: white;
+    padding: 30px;
+    position: absolute;
+    left: 0;
+    top: 30%;
+}
+.Banner h2{
+    font-size: 70px;
+}
+.Banner h2 span{
+    font-size: 1.5em;
+}
+nav{
+    background-color: #f4f4f4;
+    padding: 20px;
+    position: sticky;
+    top: 94px;
+}
+nav li{
+    width: 25%;
+    display: inline-block;
+}
+nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav a{
+    text-decoration: none;
+    color: #4b4b4b;
+}
+nav li a.join{
+    color: #f63232;
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+}
+article h2{
+    color: #f63232;
+    font-size: 50px;
+}
+article p{
+    line-height: 2em;
+    color: #4b4b4b;
+}
+.Images{
+    text-align: center;
+    margin: 80px 0;
+    white-space: nowrap;
+}
+.Images li{
+    display: inline-block;
+    width: 40%;
+    margin: 10px 5%;
+}
+.Images li img{
+    max-width: 100%;
+}
+.Join{
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 60px 20px;
+    color: #4b4b4b;
+}
+.Join h2{
+    font-size: 30px;
+}
+form input{
+    margin: 20px 0px;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 5px solid white;
+    border-radius: 25px; 
+}
+footer{
+    background-color: #f63232;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
